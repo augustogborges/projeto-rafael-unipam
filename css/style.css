@@ -1,0 +1,53 @@
+.navbar-nav li a {
+    color: white !important;
+    border-bottom: 4px solid black;
+}
+
+.navbar-nav li a:hover {
+    border-bottom: 4px solid #ff0000;
+}
+
+.navbar-nav li {
+    padding: 0 20px !important;
+}
+
+.bg-menu {
+    position: fixed;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 8px;
+}
+
+.title {
+    margin: 180px 0px 0px 0px;
+    text-align: center;
+    font-size: 2.4rem;
+}
+
+.subtitle {
+    margin: 10px 0px 0px 0px;
+    text-align: center;
+
+}
+
+.structure {
+    background-color: black;
+    color: white;
+    box-sizing: 0 0 20px 10px rgba(255 0 0);
+}
+
+.destaque {
+    color: red;
+}
+
+.card{
+    margin: 300px;
+}
+.btn{
+    background-color: red;
+}
