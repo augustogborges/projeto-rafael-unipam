@@ -1,3 +1,6 @@
+.navbar{
+    position: relative;
+}
 .navbar-nav li a {
     color: white !important;
     border-bottom: 4px solid black;
@@ -11,16 +14,8 @@
     padding: 0 20px !important;
 }
 
-.bg-menu {
-    position: fixed;
-}
-
-.navbar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    padding: 8px;
+.navbar-brand{
+    position: absolute;
 }
 
 .title {
@@ -32,13 +27,11 @@
 .subtitle {
     margin: 10px 0px 0px 0px;
     text-align: center;
-
 }
 
 .structure {
     background-color: black;
     color: white;
-    box-sizing: 0 0 20px 10px rgba(255 0 0);
 }
 
 .destaque {
