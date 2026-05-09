@@ -52,92 +52,119 @@
     </div>
   </nav>
 
-  <div class="container py-4 hero">
+  <header class="topo">
+    <div class="container py-4"></div>
+      <h1 class="title">Como o Japão <span class="destaque">dominou</span> <br> o industria de carros no século passado</h1>
+      <p class="subtitle">Da reconstrução pós-guerra à era dourada do JDM.</p>
+  </header>
 
-    <h1 class="title">
-      Como o Japão <span class="destaque">dominou</span> <br>
-      o industria de carros no século passado
-    </h1>
+    <main class="container my-5">
 
-    <p class="subtitle">
-      Da reconstrução pós-guerra à era dourada do JDM.
-    </p>
+      <section class="mb-5">
+        <div id="carrosselPrincipal" class="carousel slide shadow-sm rounded-4 overflow-hidden" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carrosselPrincipal" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carrosselPrincipal" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carrosselPrincipal" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
 
-    <div id="carrosselPrincipal" class="carousel slide shadow-sm rounded-4 overflow-hidden" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/honda-nsx-banner.png" class="d-block w-100 imagem-carrossel" alt="Imagem 1">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Aprendizado com prática</h5>
+                <p>Construindo interfaces com organização e simplicidade.</p>
+              </div>
+            </div>
 
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carrosselPrincipal" data-bs-slide-to="0" class="active"
-          aria-current="true" aria-label="Slide 1"></button>
+            <div class="carousel-item">
+              <img src="img/honda-nsx-banner.png" class="d-block w-100 imagem-carrossel" alt="Imagem 2">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Layout responsivo</h5>
+                <p>O Bootstrap ajuda a adaptar a página a diferentes telas.</p>
+              </div>
+            </div>
 
-        <button type="button" data-bs-target="#carrosselPrincipal" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <div class="carousel-item">
+              <img src="img/honda-nsx-banner.png" class="d-block w-100 imagem-carrossel" alt="Imagem 2">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Interface moderna</h5>
+                <p>Um visual bonito, simples e funcional para os alunos.</p>
+              </div>
+            </div>
+          </div>
 
-        <button type="button" data-bs-target="#carrosselPrincipal" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carrosselPrincipal" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
 
-      <div class="carousel-inner">
+          <button class="carousel-control-next" type="button" data-bs-target="#carrosselPrincipal" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Próximo</span>
+          </button>
+        </div>
+      </section>
 
-        <div class="carousel-item active">
-          <img src="img/honda-nsx-banner.png" class="d-block w-100 imagem-carrossel" alt="Imagem 1">
+      <section>
+        <h2 class="titulo-secao mb-4">Galeria de fotos</h2>
 
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Honda NSX</h5>
-            <p>Um projeto com o dedo de Ayrton Senna!</p>
+        <div class="row g-4">
+          <div class="col-sm-6 col-lg-4">
+            <figure class="card-galeria">
+              <img src="img/foto1.jpg" alt="Foto 1" class="img-fluid">
+              <figcaption>Projeto visual moderno e limpo.</figcaption>
+            </figure>
+          </div>
+
+          <div class="col-sm-6 col-lg-4">
+            <figure class="card-galeria">
+              <img src="img/foto2.jpg" alt="Foto 2" class="img-fluid">
+              <figcaption>Uso de componentes prontos do Bootstrap.</figcaption>
+            </figure>
+          </div>
+
+          <div class="col-sm-6 col-lg-4">
+            <figure class="card-galeria">
+              <img src="img/foto3.jpg" alt="Foto 3" class="img-fluid">
+              <figcaption>Responsividade com grid system.</figcaption>
+            </figure>
+          </div>
+
+          <div class="col-sm-6 col-lg-4">
+            <figure class="card-galeria">
+              <img src="img/foto4.jpg" alt="Foto 4" class="img-fluid">
+              <figcaption>Navegação simples e organizada.</figcaption>
+            </figure>
+          </div>
+
+          <div class="col-sm-6 col-lg-4">
+            <figure class="card-galeria">
+              <img src="img/foto5.jpg" alt="Foto 5" class="img-fluid">
+              <figcaption>Boas práticas na estrutura do conteúdo.</figcaption>
+            </figure>
+          </div>
+
+          <div class="col-sm-6 col-lg-4">
+            <figure class="card-galeria">
+              <img src="img/foto6.jpg" alt="Foto 6" class="img-fluid">
+              <figcaption>Interface agradável para o usuário.</figcaption>
+            </figure>
           </div>
         </div>
+      </section>
 
-        <div class="carousel-item">
-          <img src="img/honda-nsx-banner.png" class="d-block w-100 imagem-carrossel" alt="Imagem 2">
-
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Layout responsivo</h5>
-            <p>O Bootstrap ajuda a adaptar a página a diferentes telas.</p>
-          </div>
-        </div>
-
-        <div class="carousel-item">
-          <img src="img/honda-nsx-banner.png" class="d-block w-100 imagem-carrossel" alt="Imagem 3">
-
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Interface moderna</h5>
-            <p>Um visual bonito, simples e funcional para os alunos.</p>
-          </div>
-        </div>
-
+    </main>
+    <footer class="rodape">
+      <div class="container py-4 text-center">
+        <p class="m-0">Desenvolvido para fins didáticos, com HTML, CSS e Bootstrap.</p>
       </div>
+    </footer>
 
-      <button class="carousel-control-prev" type="button" data-bs-target="#carrosselPrincipal" data-bs-slide="prev">
-
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Anterior</span>
-      </button>
-
-      <button class="carousel-control-next" type="button" data-bs-target="#carrosselPrincipal" data-bs-slide="next">
-
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Próximo</span>
-      </button>
-    </div>
-  </div>
-  <main>
-    <div class="card" style="width: 300px; height: 300px;" >
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">História</h5>
-        <p class="card-text">Do pós-guerra à ascensão mundial, o Japão transformou sua indústria automotiva com inovação, eficiência e engenharia de ponta. Conheça a trajetória que levou marcas japonesas a dominarem estradas ao redor do mundo.</p>
-        <a href="historia.html" class="btn btn-primary">Ir para.</a>
-      </div>
-    </div>
-  </main>
-  <footer class="rodape">
-    <div class="container py-4 text-center">
-      <p class="m-0">
-        Desenvolvido para fins didáticos, com HTML, CSS e Bootstrap.
-      </p>
-    </div>
-  </footer>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
