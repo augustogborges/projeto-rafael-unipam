@@ -53,12 +53,18 @@
 }
 
 .bt-funny{
-    background-color: #ff0000;
-    color: #fff;
-    border-radius: 0cqh;
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #fff;
+    border-radius: 10px;
+
 }
 
 .card{
-    width: 266 !important;
-    height: 200 !important;
+    background-color: red;
+    color: white;
+}
+
+.cards{
+    margin: 240px 0 0 0 !important;
 }
