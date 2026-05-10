@@ -68,3 +68,19 @@
 .cards{
     margin: 240px 0 0 0 !important;
 }
+
+.card-galeria img{
+    width: auto;
+    height: 300px;
+}
+
+.galeria{
+    padding: 0 100px 0 100px;
+    margin: 0px;
+}
+
+.titulo-secao{
+    text-align: left;
+    color: red;
+    padding: 100px 100px 0 100px;
+}
