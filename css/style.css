@@ -1,86 +1,133 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+/***************NAVBAR************/
+.bg-menu {
+}
+
 .navbar {
-    position: relative;
-    background: rgba(0, 0, 0, 0.983);
-    border-bottom: 2px solid #ff000047
+  position: relative;
+  border-bottom: 2px solid #dc2332;
 }
 
 .navbar-nav li a {
-    color: white !important;
-    border-bottom: 2px transparent;
-    transition: 0.2s;
+  color: white !important;
+  border-bottom: 2px transparent;
+  transition: 0.2s;
 }
 
 .navbar-nav li a:hover {
-    border-bottom: 2px solid #ff0000;
+  border-bottom: 2px solid #fff;
 }
 
 .navbar-nav li {
-    padding: 0 20px !important;
+  padding: 0 20px !important;
 }
 
 .navbar-brand {
-    position: absolute;
+  position: absolute;
 }
 
-.title {
-    margin: 40px 0px 0px 0px;
-    text-align: center;
-    font-size: 2.4rem;
+/************titulo da pagina**************/
+.title h1 {
+  text-align: center;
+  font-size: 2.4rem;
 }
 
-.subtitle {
-    margin: 10px 0px 0px 0px;
-    text-align: center;
+.title p {
+  margin: 10px 0px 0px 0px;
+  text-align: center;
 }
 
-.structure {
-    background-color: black;
-    color: white;
-}
-
-.destaque {
-    color: red;
+.title span {
+  color: #dc2332;
 }
 
 .my-5 {
-    align-items: center;
+  align-items: center;
 }
 
-.carousel{
-    margin: auto;
-    width: 85%;
-    align-items: center;
+.carousel {
+  margin: auto;
+  width: 85%;
+  align-items: center;
 }
 
-.bt-funny{
-    background-color: #ffffff;
-    color: #000000;
-    border: 2px solid #fff;
-    border-radius: 10px;
-
+/**************CARDS DE DIRECIONAMENTO**********/
+.cards a {
+}
+.oz {
+  background-color: #ffffff;
+  color: #000000;
+  border: 2px solid #000;
+  border-radius: 8px;
+  padding: 7px;
+  text-decoration: none;
+  margin-left: 73%;
 }
 
-.card{
-    background-color: red;
-    color: white;
+.card {
+  background-color: #dc2332;
+  color: white;
 }
 
-.cards{
-    margin: 240px 0 0 0 !important;
+.cards {
+  margin: 240px 0 0 0 !important;
 }
 
-.card-galeria img{
-    width: auto;
-    height: 300px;
+.card-galeria img {
+  width: auto;
+  height: 300px;
 }
 
-.galeria{
-    padding: 0 100px 0 100px;
-    margin: 0px;
+/****************GALERIA***********/
+.galeria {
+  padding: 0 100px 0 100px;
+  margin: 0px;
 }
 
-.titulo-secao{
-    text-align: left;
-    color: red;
-    padding: 100px 100px 0 100px;
+.titulo-secao {
+  text-align: left;
+  color: #dc2332;
+  padding: 100px 100px 0 100px;
+}
+
+/**********Rodapé***********/
+
+.rodape {
+  background-color: #dc2332;
+  color: #fff;
+  padding: 30px;
+  margin-top: 55px;
+}
+
+.rodape i {
+  font-size: 2rem;
+  color: #fff;
+  border-style: solid;
+  border-width: 2px;
+  padding: 5px 2px 5px 2px;
+  border-radius: 10%;
+}
+
+
+
+/****************texto das paginas**********/
+
+.header-text{
+  color: #dc2343;
+  margin-left: 60px;
+}
+
+.body-text{
+  color: white;
+  margin-top: 20px;
+  margin-left: 60px;
+  margin-bottom: 60px;
+}
+
+.body-text span{
+  text-indent: 30px !important;
 }
