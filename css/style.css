@@ -5,7 +5,17 @@ body {
 
 /***************NAVBAR************/
 
+@font-face {
+  font-family: "Outifit";
+  src: url("/assets/fonts/Outfit-VariableFont_wght.ttf");
+}
 
+*{
+  font-family: "Outifit";
+}
+
+
+/***************NAVBAR************/
 .navbar {
   position: relative;
   border-bottom: 2px solid #dc2332;
