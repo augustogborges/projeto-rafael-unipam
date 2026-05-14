@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A cultura japonesa</title>
+    <title>Contato</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body class="structure">
+<body>
     <nav class="navbar navbar-expand-lg bg-menu">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
@@ -48,7 +48,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="formulario.html">Formulário</a>
+                        <a class="nav-link" href="galeria.html">Formulário</a>
                     </li>
 
                 </ul>
@@ -56,63 +56,65 @@
         </div>
     </nav>
 
-    <header class="topo">
-        <div class="container py-4 title">
-            <h1>A evolução automotiva <span class="destaque">japonesa</span></h1>
-            <p>Uma coleção de imagens que mostra os carros, a engenharia e a cultura que transformaram
-                o Japão em uma potência automotiva mundial.</p>
+    <header class="topo-2">
+        <div class="container py-4">
+            <h1 class="m-0">Bootstrap na Prática</h1>
+            <p class="m-0">Formulário simples para aprender os fundamentos.</p>
         </div>
     </header>
 
-    <section>
-        <h2 class="titulo-secao mb-4">Galeria de fotos</h2>
+    <main class="container my-5">
+        <section class="row justify-content-center">
+            <div class="col-lg-8">
+                <h2 class="titulo-secao-2 mb-4">Formulário de contato</h2>
 
-        <div class="row g-4 galeria">
-            <div class="col-sm-6 col-lg-4">
-                <figure class="card-galeria">
-                    <img src="img/galeria/GT-R.jpg" alt="Foto 1" class="img-fluid">
-                    <figcaption>Nissan Skyline GT-R (1989)</figcaption>
-                </figure>
-            </div>
+                <form class="card-form p-4 p-md-5">
+                    <div class="mb-3">
+                        <label for="nome" class="form-label">Nome completo</label>
+                        <input type="text" class="form-control" id="nome" placeholder="Digite seu nome completo">
+                    </div>
 
-            <div class="col-sm-6 col-lg-4">
-                <figure class="card-galeria">
-                    <img src="img/galeria/mazda.jpg" alt="Foto 2" class="img-fluid">
-                    <figcaption>RX-7 (Mazda) (1991)</figcaption>
-                </figure>
-            </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">E-mail</label>
+                        <input type="email" class="form-control" id="email" placeholder="nome@exemplo.com">
+                    </div>
 
-            <div class="col-sm-6 col-lg-4">
-                <figure class="card-galeria">
-                    <img src="img/galeria/sprinter.jpg" alt="Foto 3" class="img-fluid">
-                    <figcaption>Toyota Sprinter Trueno (1986)</figcaption>
-                </figure>
-            </div>
+                    <div class="mb-3">
+                        <label for="telefone" class="form-label">Telefone</label>
+                        <input type="tel" class="form-control" id="telefone" placeholder="(00) 00000-0000">
+                    </div>
 
-            <div class="col-sm-6 col-lg-4">
-                <figure class="card-galeria">
-                    <img src="img/galeria/038-P2870389_Mazda-Savanna-RX7-SA22C.jpg" alt="Foto 4" class="img-fluid">
-                    <figcaption>Navegação simples e organizada.</figcaption>
-                </figure>
-            </div>
+                    <div class="mb-3">
+                        <label for="assunto" class="form-label">Assunto</label>
+                        <select class="form-select" id="assunto">
+                            <option selected>Selecione uma opção</option>
+                            <option value="duvida">Dúvida</option>
+                            <option value="suporte">Suporte</option>
+                            <option value="orcamento">Dica</option>
+                        </select>
+                    </div>
 
-            <div class="col-sm-6 col-lg-4">
-                <figure class="card-galeria">
-                    <img src="img/galeria/AcuraNSXZanardi.jpg" alt="Foto 5" class="img-fluid">
-                    <figcaption>Boas práticas na estrutura do conteúdo.</figcaption>
-                </figure>
-            </div>
+                    <div class="mb-3">
+                        <label for="mensagem" class="form-label">Mensagem</label>
+                        <textarea class="form-control" id="mensagem" rows="5"
+                            placeholder="Escreva sua mensagem"></textarea>
+                    </div>
 
-            <div class="col-sm-6 col-lg-4">
-                <figure class="card-galeria">
-                    <img src="img/galeria/MitsubishiSA12200VD-V12-tank-engine.jpg" alt="Foto 6" class="img-fluid">
-                    <figcaption>Interface agradável para o usuário.</figcaption>
-                </figure>
+                    <div class="form-check mb-4">
+                        <input class="form-check-input" type="checkbox" value="" id="confirmacao">
+                        <label class="form-check-label" for="confirmacao">
+                            Concordo em receber retorno por e-mail.
+                        </label>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-lg">Enviar mensagem</button>
+                </form>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
     <!--FINAL DA PAGIANA-->
+    </main>
     <footer class="rodape">
         <div class="container">
             <h4>JDM Legacy</h4>

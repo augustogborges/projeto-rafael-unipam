@@ -153,3 +153,22 @@ body {
   width: 75%;
   margin: auto;
 }
+
+.titulo-secao-2{
+  text-align: center;
+  color: #dc2332;
+}
+
+.topo-2{
+  text-align: center;
+}
+
+.btn-lg{
+  background-color: #dc2332;
+  border-color: #000;
+}
+
+.btn-lg:hover{
+  background-color: #000000;
+  border-color: #dc2332;
+}
