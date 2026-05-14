@@ -10,7 +10,7 @@ body {
   src: url("/assets/fonts/Outfit-VariableFont_wght.ttf");
 }
 
-*{
+* {
   font-family: "Outifit";
 }
 
@@ -105,29 +105,29 @@ body {
 }
 
 /**********Rodapé***********/
-.rodape{
-    background-color: #0a0a0a;
-    border-top: 2px solid #dc2332;
-    padding: 25px 0;
-    margin-top: 120px;
-    text-align: center;
+.rodape {
+  background-color: #0a0a0a;
+  border-top: 2px solid #dc2332;
+  padding: 25px 0;
+  margin-top: 120px;
+  text-align: center;
 }
 
-.rodape p{
-    color: #bdbdbd;
-    margin-top: 15px;
-    font-size: 1rem;
+.rodape p {
+  color: #bdbdbd;
+  margin-top: 15px;
+  font-size: 1rem;
 }
 
-.rodape i{
-    font-size: 2.2rem;
-    color: #dc2332;
-    transition: 0.5s;
+.rodape i {
+  font-size: 2.2rem;
+  color: #dc2332;
+  transition: 0.5s;
 }
 
-.rodape i:hover{
-    color: white;
-}   
+.rodape i:hover {
+  color: white;
+}
 
 
 
@@ -154,21 +154,55 @@ body {
   margin: auto;
 }
 
-.titulo-secao-2{
+.titulo-secao-2 {
   text-align: center;
   color: #dc2332;
 }
 
-.topo-2{
+.topo-2 {
   text-align: center;
 }
 
-.btn-lg{
+.btn-lg {
   background-color: #dc2332;
   border-color: #000;
 }
 
-.btn-lg:hover{
+.btn-lg:hover {
   background-color: #000000;
   border-color: #dc2332;
+}
+
+.tabela-personalizada {
+  color: white !important;
+  border: 1px solid #dc2332;
+}
+
+.tabela-personalizada thead {
+  background-color: #dc2332 !important;
+  color: white !important;
+}
+
+.tabela-personalizada thead th {
+  background-color: #dc2332 !important;
+  color: white !important;
+  border-color: #2b2b2b !important;
+}
+
+.tabela-personalizada tbody tr {
+  background-color: #111111 !important;
+  color: white !important;
+}
+
+.tabela-personalizada tbody td {
+  background-color: #111111 !important;
+  color: white !important;
+  border-color: #2b2b2b !important;
+}
+
+
+.titulo-secao-5{
+  text-align: center;
+  color: #dc2332;
+  margin: 100px;
 }
